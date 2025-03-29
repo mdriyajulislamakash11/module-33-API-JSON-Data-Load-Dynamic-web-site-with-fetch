@@ -9,7 +9,7 @@ function displayPost(posts) {
 
   for (const post of posts) {
     const newDiv = document.createElement("div");
-    newDiv.classList = "post"
+    newDiv.classList.add("post")
     newDiv.innerHTML = `
     <h4>user: ${post.id}</h4>
     <h5>Post: ${post.title}</h5>
